@@ -1,0 +1,216 @@
+body{
+    font-family: 'Montserrat', sans-serif ;
+    color: #495579;
+}
+
+.row{
+    padding-top: 4rem ;
+}
+
+.bglight{ 
+    background-color: #FFFBEB;
+}
+
+/* Buttons */
+.btn-dark{
+    color: #FFFBEB;
+    background-color: #495579;
+    border: 1px solid #495579;
+}
+
+.btn-dark:hover{
+    background-color: #263159;
+    border: border 1px solid #495579;
+}
+
+.btn-outline-light{
+    color: #495579;
+    border: 1px #495579 solid;
+}
+
+.btn-outline-light:hover{
+    background-color: #FFEBB7;
+    border: 1px solid #495579;
+}
+
+.btn-me{
+    margin: 5% 3% 0 0;
+}
+
+.btn-card{
+    width: 100%;
+}
+
+.btn-outline-primary:hover{
+    background-color: #495579;
+}
+
+
+/* Title */
+
+
+#title h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    
+}
+
+.nav-link{
+    margin-right: 1.2rem;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    color: #495579;
+}
+
+.nav-link:hover{
+    color: #263159;
+}
+
+.my-logo{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    color: #495579;
+}
+
+.container-fluid{
+    padding: 3% 15% 8%;
+
+}
+
+.iphone{
+    width: 22%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;  
+}
+
+
+/* Features */
+
+.fa-4x{
+    color: #495579;
+    margin-bottom: 1.2rem;
+}
+
+.fa-4x:hover{
+    color: #263159;
+}
+
+#features{
+    padding: 5% 15%;
+    background-color: white;
+    position: relative;
+}
+
+#features h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+/* Testimonials */
+
+#testimonials{
+    text-align: center;
+}
+
+.carousel-item{
+    padding: 5% 15%;
+}
+
+#testimonials h2{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#testimonials img{
+    border-radius: 100%;
+    width: 5%;
+    margin: 1.5%;
+}
+
+.carousel-me{
+    background-color: #495579;
+}
+
+/* Press */
+
+#press{
+    text-align: center;
+    padding: 4%;
+}
+
+#press img{
+    width: 15%;
+    margin: 1.5%;
+}
+
+
+/* PRICING */
+
+#pricing{
+    padding: 10%;
+    text-align: center;
+}
+
+.card{
+    padding: 2% 5%;
+}
+
+/* CTA */
+
+#cta{
+    text-align: center;
+    padding: 7% 15% 5%;
+}
+
+#cta h3{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 3.1rem;
+    line-height: 1.5;
+    width: 80%;
+    margin: auto;
+}
+
+#cta .btn{
+    margin: 5% 1% 2% 0;
+}
+
+/* FOOTER */
+
+#footer{
+    text-align: center;
+    padding: 3% 15%;
+}
+
+#footer i{
+    padding: 10px;
+}
+
+#footer i:hover{
+    color: #263159;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width:1028px) {
+   #title{
+        text-align: center;
+        font-size: 2.0rem;
+   }
+   
+    .iphone{
+        position: static;
+        width: 60%;
+        transform: rotate(0);
+        margin-top: 70px;
+    }
+}
